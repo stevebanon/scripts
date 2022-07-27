@@ -289,7 +289,6 @@ resolve=`ping ${DOMAIN} -c 1 | sed '1{s/[^(]*(//;s/).*//;q}'`
                 exit 1
             fi
         fi
-    fi
 
     echo ""
     if [[ "$(needNginx)" = "no" ]]; then
